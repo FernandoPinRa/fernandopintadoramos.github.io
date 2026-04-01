@@ -247,6 +247,21 @@ a:hover { text-decoration: underline; }
 
 .icon-link:hover { color: var(--accent); text-decoration: none; }
 
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  transition: color .2s, border-color .2s;
+}
+
+.repo-link:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+
 .card-title {
   font-size: 1rem;
   font-weight: 600;
